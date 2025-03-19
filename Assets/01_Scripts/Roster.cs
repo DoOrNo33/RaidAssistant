@@ -3,18 +3,18 @@ using System.Collections.Generic;
 
 public class Roster : Singleton<Roster>
 {
-    public List<Job> roster = new List<Job>();
+    [SerializeField] private List<Job> roster;
+
     public void AddMelee()
     {
         
     }
-}
 
-public class Job
-{
-    public string name;
-    public Enums.Roll role;
-    public Enums.Range range;
-    public Enums.Armor armor;
-    public Enums.Class jobClass;
+    public void AddToRoster(Enums.Class cl)
+    {
+        Job job = new Job();
+        job.jobClass = cl;
+
+        roster.Add(job);
+    }
 }

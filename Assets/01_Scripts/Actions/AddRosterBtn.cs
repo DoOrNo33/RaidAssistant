@@ -20,11 +20,13 @@ public class AddRosterBtn : MonoBehaviour
     [SerializeField] private Enums.Warlock warlockTalent;
     [SerializeField] private Enums.Mage mageTalent;
 
-
+    [SerializeField] private GameObject playerObj;
+    [SerializeField] private GameObject meleeRoster;
 
     public void ClickAddBtn()
     {
-        Roster.Instance.AddToRoster(jobClass);
+        Roster.Instance.AddToRoster(jobClass, role, range, armor);
         
+        Instantiate(playerObj, meleeRoster.transform);
     }
 }

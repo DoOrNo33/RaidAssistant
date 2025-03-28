@@ -26,7 +26,5 @@ public class AddRosterBtn : MonoBehaviour
     public void ClickAddBtn()
     {
         Roster.Instance.AddToRoster(jobClass, role, range, armor);
-        
-        Instantiate(playerObj, meleeRoster.transform);
     }
 }

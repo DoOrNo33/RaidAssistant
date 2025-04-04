@@ -12,11 +12,21 @@ public class Roster : Singleton<Roster>
     [SerializeField] private GameObject rangedRoster;
     [SerializeField] private GameObject healerRoster;
 
+    // 버튼 리사이징을 위한 리스트
+    [SerializeField] private List<SquareButtonResizer> squareButtonResizers;
 
-    public void AddMelee()
-    {
-        
-    }
+    // private void Start()
+    // {
+    //     InitSquareButtonResizer();
+    // }
+
+    // private void InitSquareButtonResizer()
+    // {
+    //     foreach (SquareButtonResizer resizer in squareButtonResizers)
+    //     {
+    //         resizer.ResizeSetup();
+    //     }
+    // }
 
     public void AddToRoster(Enums.Class cl, Enums.Roll role, Enums.Range range, Enums.Armor armor,
         Enums.Warrior warriorTalent = Enums.Warrior.Null,

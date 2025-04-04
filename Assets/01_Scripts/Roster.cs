@@ -65,9 +65,53 @@ public class Roster : Singleton<Roster>
         }
 
         // 클래스 오브젝트 세팅을 위한 컴포넌트 가져오기
-        ClassObjectSetup classBtnSetup = pObj.GetComponent<ClassObjectSetup>();
+        ClassObjectSetup classObjectSetup = pObj.GetComponent<ClassObjectSetup>();
 
-        // 버튼 이름 변경
-        pObj.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = cl.ToString();
+        // 클래스 오브젝트 세팅
+        switch (cl)
+        {
+            case Enums.Class.Warrior:
+                classObjectSetup.SetupWarriorObject(warriorTalent);
+                break;
+            case Enums.Class.Paladin:
+                classObjectSetup.SetupPaladinObject(paladinTalent);
+                break;
+            case Enums.Class.DeathKnight:
+                classObjectSetup.SetupDeathKnightObject(deathKnightTalent);
+                break;
+            case Enums.Class.Evoker:
+                classObjectSetup.SetupEvokerObject(evokerTalent);
+                break;
+            case Enums.Class.Shaman:
+                classObjectSetup.SetupShamanObject(shamanTalent);
+                break;
+            case Enums.Class.Hunter:
+                classObjectSetup.SetupHunterObject(hunterTalent);
+                break;
+            case Enums.Class.DemonHunter:
+                classObjectSetup.SetupDemonHunterObject(demonHunterTalent);
+                break;
+            case Enums.Class.Druid:
+                classObjectSetup.SetupDruidObject(druidTalent);
+                break;
+            case Enums.Class.Rogue:
+                classObjectSetup.SetupRogueObject(rogueTalent);
+                break;
+            case Enums.Class.Monk:
+                classObjectSetup.SetupMonkObject(monkTalent);
+                break;
+            case Enums.Class.Priest:
+                classObjectSetup.SetupPriestObject(priestTalent);
+                break;
+            case Enums.Class.Warlock:
+                classObjectSetup.SetupWarlockObject(warlockTalent);
+                break;
+            case Enums.Class.Mage:
+                classObjectSetup.SetupMageObject(mageTalent);
+                break;
+            default:
+                Debug.LogError("클래스 타입 미정");
+                break;
+        }
     }
 }

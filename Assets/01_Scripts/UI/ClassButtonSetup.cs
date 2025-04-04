@@ -1,16 +1,9 @@
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class ClassButtonSetup : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] private TextMeshProUGUI classNameText;
+    [SerializeField] private Image buttonColor;
 }

@@ -171,15 +171,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 2
+  jobClass: 4
+  role: 1
   range: 1
-  armor: 0
+  armor: 2
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
   evokerTalent: 0
-  shamanTalent: 0
+  shamanTalent: 3
   hunterTalent: 0
   demonHunterTalent: 0
   druidTalent: 0
@@ -336,10 +336,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 7
   role: 0
   range: 0
-  armor: 0
+  armor: 1
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
@@ -347,7 +347,7 @@ MonoBehaviour:
   shamanTalent: 0
   hunterTalent: 0
   demonHunterTalent: 0
-  druidTalent: 0
+  druidTalent: 3
   rogueTalent: 0
   monkTalent: 0
   priestTalent: 0
@@ -501,8 +501,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 1
+  jobClass: 11
+  role: 2
   range: 1
   armor: 0
   warriorTalent: 0
@@ -516,7 +516,7 @@ MonoBehaviour:
   rogueTalent: 0
   monkTalent: 0
   priestTalent: 0
-  warlockTalent: 0
+  warlockTalent: 1
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
@@ -732,10 +732,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC0AC\uACA9"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -759,12 +759,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -868,10 +868,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC218\uD638"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -895,12 +895,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -999,8 +999,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 2
+  jobClass: 10
+  role: 1
   range: 1
   armor: 0
   warriorTalent: 0
@@ -1013,7 +1013,7 @@ MonoBehaviour:
   druidTalent: 0
   rogueTalent: 0
   monkTalent: 0
-  priestTalent: 0
+  priestTalent: 2
   warlockTalent: 0
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
@@ -1169,10 +1169,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uD608\uAE30"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1196,12 +1196,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1300,14 +1300,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 0
-  range: 0
-  armor: 0
+  jobClass: 3
+  role: 2
+  range: 1
+  armor: 2
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
-  evokerTalent: 0
+  evokerTalent: 1
   shamanTalent: 0
   hunterTalent: 0
   demonHunterTalent: 0
@@ -1465,8 +1465,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 1
+  jobClass: 10
+  role: 2
   range: 1
   armor: 0
   warriorTalent: 0
@@ -1479,7 +1479,7 @@ MonoBehaviour:
   druidTalent: 0
   rogueTalent: 0
   monkTalent: 0
-  priestTalent: 0
+  priestTalent: 3
   warlockTalent: 0
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
@@ -1635,10 +1635,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uBD80\uC815"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1662,12 +1662,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1771,10 +1771,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uBB34\uAE30"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1798,12 +1798,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2035,9 +2035,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 2
-  range: 0
+  jobClass: 10
+  role: 1
+  range: 1
   armor: 0
   warriorTalent: 0
   paladinTalent: 0
@@ -2049,7 +2049,7 @@ MonoBehaviour:
   druidTalent: 0
   rogueTalent: 0
   monkTalent: 0
-  priestTalent: 0
+  priestTalent: 1
   warlockTalent: 0
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
@@ -2272,8 +2272,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2297,12 +2297,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 64.1
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2406,10 +2406,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC591\uC870"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2433,12 +2433,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2542,10 +2542,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC7A0\uD589"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2569,12 +2569,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2799,10 +2799,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 8
   role: 2
-  range: 1
-  armor: 0
+  range: 0
+  armor: 1
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
@@ -2811,7 +2811,7 @@ MonoBehaviour:
   hunterTalent: 0
   demonHunterTalent: 0
   druidTalent: 0
-  rogueTalent: 0
+  rogueTalent: 3
   monkTalent: 0
   priestTalent: 0
   warlockTalent: 0
@@ -2964,17 +2964,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 6
   role: 2
   range: 0
-  armor: 0
+  armor: 1
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
   evokerTalent: 0
   shamanTalent: 0
   hunterTalent: 0
-  demonHunterTalent: 0
+  demonHunterTalent: 1
   druidTalent: 0
   rogueTalent: 0
   monkTalent: 0
@@ -3134,10 +3134,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC6B4\uBB34"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3161,12 +3161,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -3337,14 +3337,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 2
-  range: 0
-  armor: 0
+  jobClass: 3
+  role: 1
+  range: 1
+  armor: 2
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
-  evokerTalent: 0
+  evokerTalent: 3
   shamanTalent: 0
   hunterTalent: 0
   demonHunterTalent: 0
@@ -3507,10 +3507,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uACE0\uC591"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3534,12 +3534,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -3643,10 +3643,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uBB34\uBC95"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3670,12 +3670,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -3779,10 +3779,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC545\uB9C8"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3806,12 +3806,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -4052,10 +4052,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC870\uD654"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4079,12 +4079,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -4183,15 +4183,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 1
-  range: 1
-  armor: 0
+  jobClass: 4
+  role: 2
+  range: 0
+  armor: 2
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
   evokerTalent: 0
-  shamanTalent: 0
+  shamanTalent: 2
   hunterTalent: 0
   demonHunterTalent: 0
   druidTalent: 0
@@ -4409,13 +4409,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 1
-  range: 1
-  armor: 0
+  jobClass: 2
+  role: 0
+  range: 0
+  armor: 3
   warriorTalent: 0
   paladinTalent: 0
-  deathKnightTalent: 0
+  deathKnightTalent: 1
   evokerTalent: 0
   shamanTalent: 0
   hunterTalent: 0
@@ -4728,10 +4728,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uB0C9\uAE30"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4755,12 +4755,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -4864,10 +4864,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC57C\uC131"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4891,12 +4891,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -5060,10 +5060,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 2
+  jobClass: 7
+  role: 1
   range: 1
-  armor: 0
+  armor: 1
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
@@ -5071,7 +5071,7 @@ MonoBehaviour:
   shamanTalent: 0
   hunterTalent: 0
   demonHunterTalent: 0
-  druidTalent: 0
+  druidTalent: 4
   rogueTalent: 0
   monkTalent: 0
   priestTalent: 0
@@ -5225,12 +5225,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 2
-  range: 1
-  armor: 0
+  jobClass: 1
+  role: 1
+  range: 0
+  armor: 3
   warriorTalent: 0
-  paladinTalent: 0
+  paladinTalent: 1
   deathKnightTalent: 0
   evokerTalent: 0
   shamanTalent: 0
@@ -5395,10 +5395,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uD48D\uC6B4"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5422,12 +5422,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -5526,10 +5526,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 8
   role: 2
   range: 0
-  armor: 0
+  armor: 1
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
@@ -5538,7 +5538,7 @@ MonoBehaviour:
   hunterTalent: 0
   demonHunterTalent: 0
   druidTalent: 0
-  rogueTalent: 0
+  rogueTalent: 2
   monkTalent: 0
   priestTalent: 0
   warlockTalent: 0
@@ -5691,9 +5691,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 11
   role: 2
-  range: 0
+  range: 1
   armor: 0
   warriorTalent: 0
   paladinTalent: 0
@@ -5706,7 +5706,7 @@ MonoBehaviour:
   rogueTalent: 0
   monkTalent: 0
   priestTalent: 0
-  warlockTalent: 0
+  warlockTalent: 2
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
@@ -5856,9 +5856,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 12
   role: 2
-  range: 0
+  range: 1
   armor: 0
   warriorTalent: 0
   paladinTalent: 0
@@ -5872,7 +5872,7 @@ MonoBehaviour:
   monkTalent: 0
   priestTalent: 0
   warlockTalent: 0
-  mageTalent: 0
+  mageTalent: 2
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
 --- !u!114 &704015726
@@ -6090,10 +6090,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uD30C\uBA78"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6117,12 +6117,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -6398,10 +6398,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC0DD\uC874"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6425,12 +6425,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -6599,10 +6599,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uD30C\uAD34"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6626,12 +6626,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -6785,10 +6785,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC2E0\uC131"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6812,12 +6812,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -6916,10 +6916,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 9
   role: 2
   range: 0
-  armor: 0
+  armor: 1
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
@@ -6929,7 +6929,7 @@ MonoBehaviour:
   demonHunterTalent: 0
   druidTalent: 0
   rogueTalent: 0
-  monkTalent: 0
+  monkTalent: 3
   priestTalent: 0
   warlockTalent: 0
   mageTalent: 0
@@ -7081,10 +7081,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 1
-  range: 1
-  armor: 0
+  jobClass: 8
+  role: 2
+  range: 0
+  armor: 1
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
@@ -7093,7 +7093,7 @@ MonoBehaviour:
   hunterTalent: 0
   demonHunterTalent: 0
   druidTalent: 0
-  rogueTalent: 0
+  rogueTalent: 1
   monkTalent: 0
   priestTalent: 0
   warlockTalent: 0
@@ -7251,10 +7251,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uD654\uC5FC"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7278,12 +7278,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -7382,12 +7382,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 1
-  range: 1
-  armor: 0
+  jobClass: 1
+  role: 0
+  range: 0
+  armor: 3
   warriorTalent: 0
-  paladinTalent: 0
+  paladinTalent: 2
   deathKnightTalent: 0
   evokerTalent: 0
   shamanTalent: 0
@@ -7552,10 +7552,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC99D\uAC15"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7579,12 +7579,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -7688,10 +7688,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uD68C\uBCF5"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7715,12 +7715,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -7819,17 +7819,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 1
-  range: 1
-  armor: 0
+  jobClass: 6
+  role: 0
+  range: 0
+  armor: 1
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
   evokerTalent: 0
   shamanTalent: 0
   hunterTalent: 0
-  demonHunterTalent: 0
+  demonHunterTalent: 2
   druidTalent: 0
   rogueTalent: 0
   monkTalent: 0
@@ -7989,10 +7989,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC554\uC0B4"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8016,12 +8016,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -8190,10 +8190,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC57C\uC218"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8217,12 +8217,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -8326,10 +8326,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uBCF5\uC218"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8353,12 +8353,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -8532,10 +8532,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 1
-  range: 1
-  armor: 0
+  jobClass: 9
+  role: 0
+  range: 0
+  armor: 1
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
@@ -8545,7 +8545,7 @@ MonoBehaviour:
   demonHunterTalent: 0
   druidTalent: 0
   rogueTalent: 0
-  monkTalent: 0
+  monkTalent: 1
   priestTalent: 0
   warlockTalent: 0
   mageTalent: 0
@@ -8700,8 +8700,8 @@ MonoBehaviour:
   jobClass: 0
   role: 2
   range: 0
-  armor: 0
-  warriorTalent: 0
+  armor: 3
+  warriorTalent: 2
   paladinTalent: 0
   deathKnightTalent: 0
   evokerTalent: 0
@@ -8867,10 +8867,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC815\uAE30"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8894,12 +8894,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -9003,10 +9003,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uACE0\uD1B5"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9030,12 +9030,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -9136,10 +9136,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jobClass: 0
-  role: 1
-  range: 1
-  armor: 0
-  warriorTalent: 0
+  role: 0
+  range: 0
+  armor: 3
+  warriorTalent: 3
   paladinTalent: 0
   deathKnightTalent: 0
   evokerTalent: 0
@@ -9318,10 +9318,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC554\uD751"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9345,12 +9345,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -9449,10 +9449,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 2
-  range: 1
-  armor: 0
+  jobClass: 9
+  role: 1
+  range: 0
+  armor: 1
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
@@ -9462,7 +9462,7 @@ MonoBehaviour:
   demonHunterTalent: 0
   druidTalent: 0
   rogueTalent: 0
-  monkTalent: 0
+  monkTalent: 2
   priestTalent: 0
   warlockTalent: 0
   mageTalent: 0
@@ -9619,10 +9619,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC218\uC591"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9646,12 +9646,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -9750,14 +9750,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 1
+  jobClass: 3
+  role: 2
   range: 1
-  armor: 0
+  armor: 2
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
-  evokerTalent: 0
+  evokerTalent: 2
   shamanTalent: 0
   hunterTalent: 0
   demonHunterTalent: 0
@@ -9965,16 +9965,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 1
-  range: 1
-  armor: 0
+  jobClass: 5
+  role: 2
+  range: 0
+  armor: 2
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
   evokerTalent: 0
   shamanTalent: 0
-  hunterTalent: 0
+  hunterTalent: 3
   demonHunterTalent: 0
   druidTalent: 0
   rogueTalent: 0
@@ -10130,10 +10130,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 7
   role: 2
-  range: 0
-  armor: 0
+  range: 1
+  armor: 1
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
@@ -10141,7 +10141,7 @@ MonoBehaviour:
   shamanTalent: 0
   hunterTalent: 0
   demonHunterTalent: 0
-  druidTalent: 0
+  druidTalent: 1
   rogueTalent: 0
   monkTalent: 0
   priestTalent: 0
@@ -10300,10 +10300,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uD669\uD3D0"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10327,12 +10327,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -10436,10 +10436,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uB0C9\uAE30"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10463,12 +10463,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -10567,7 +10567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 11
   role: 2
   range: 1
   armor: 0
@@ -10582,7 +10582,7 @@ MonoBehaviour:
   rogueTalent: 0
   monkTalent: 0
   priestTalent: 0
-  warlockTalent: 0
+  warlockTalent: 3
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
@@ -10732,15 +10732,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 4
   role: 2
-  range: 0
-  armor: 0
+  range: 1
+  armor: 2
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
   evokerTalent: 0
-  shamanTalent: 0
+  shamanTalent: 1
   hunterTalent: 0
   demonHunterTalent: 0
   druidTalent: 0
@@ -10897,13 +10897,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 2
   role: 2
   range: 0
-  armor: 0
+  armor: 3
   warriorTalent: 0
   paladinTalent: 0
-  deathKnightTalent: 0
+  deathKnightTalent: 2
   evokerTalent: 0
   shamanTalent: 0
   hunterTalent: 0
@@ -11072,10 +11072,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uBD84\uB178"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11099,12 +11099,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -11305,16 +11305,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 5
   role: 2
   range: 1
-  armor: 0
+  armor: 2
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
   evokerTalent: 0
   shamanTalent: 0
-  hunterTalent: 0
+  hunterTalent: 2
   demonHunterTalent: 0
   druidTalent: 0
   rogueTalent: 0
@@ -11470,12 +11470,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 1
   role: 2
   range: 0
-  armor: 0
+  armor: 3
   warriorTalent: 0
-  paladinTalent: 0
+  paladinTalent: 3
   deathKnightTalent: 0
   evokerTalent: 0
   shamanTalent: 0
@@ -11637,9 +11637,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jobClass: 0
   role: 2
-  range: 1
-  armor: 0
-  warriorTalent: 0
+  range: 0
+  armor: 3
+  warriorTalent: 1
   paladinTalent: 0
   deathKnightTalent: 0
   evokerTalent: 0
@@ -11805,10 +11805,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC9D5\uBC8C"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11832,12 +11832,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -11941,10 +11941,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uBCF4\uD638"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11968,12 +11968,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -12138,10 +12138,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uBCF5\uC6D0"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12165,12 +12165,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -12334,13 +12334,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 2
   role: 2
-  range: 1
-  armor: 0
+  range: 0
+  armor: 3
   warriorTalent: 0
   paladinTalent: 0
-  deathKnightTalent: 0
+  deathKnightTalent: 3
   evokerTalent: 0
   shamanTalent: 0
   hunterTalent: 0
@@ -12601,7 +12601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 12
   role: 2
   range: 1
   armor: 0
@@ -12617,7 +12617,7 @@ MonoBehaviour:
   monkTalent: 0
   priestTalent: 0
   warlockTalent: 0
-  mageTalent: 0
+  mageTalent: 3
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
 --- !u!114 &1829539374
@@ -13068,10 +13068,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uBC29\uC5B4"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13095,12 +13095,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -13349,10 +13349,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uBE44\uC804"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13376,12 +13376,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -13480,16 +13480,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
+  jobClass: 5
   role: 2
-  range: 0
-  armor: 0
+  range: 1
+  armor: 2
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
   evokerTalent: 0
   shamanTalent: 0
-  hunterTalent: 0
+  hunterTalent: 1
   demonHunterTalent: 0
   druidTalent: 0
   rogueTalent: 0
@@ -13650,10 +13650,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uBCF4\uC874"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13677,12 +13677,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -13786,10 +13786,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "\uC2E0\uC131"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
+  m_sharedMaterial: {fileID: -3292428360123107259, guid: 0d76b759140494da2bf944c7d3685792, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13813,12 +13813,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 100
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -13917,10 +13917,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 1
-  range: 1
-  armor: 0
+  jobClass: 7
+  role: 2
+  range: 0
+  armor: 1
   warriorTalent: 0
   paladinTalent: 0
   deathKnightTalent: 0
@@ -13928,7 +13928,7 @@ MonoBehaviour:
   shamanTalent: 0
   hunterTalent: 0
   demonHunterTalent: 0
-  druidTalent: 0
+  druidTalent: 2
   rogueTalent: 0
   monkTalent: 0
   priestTalent: 0
@@ -14082,8 +14082,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62f0c0114114f1abf6244301b98c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jobClass: 0
-  role: 1
+  jobClass: 12
+  role: 2
   range: 1
   armor: 0
   warriorTalent: 0
@@ -14098,7 +14098,7 @@ MonoBehaviour:
   monkTalent: 0
   priestTalent: 0
   warlockTalent: 0
-  mageTalent: 0
+  mageTalent: 1
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
 --- !u!114 &2141882308

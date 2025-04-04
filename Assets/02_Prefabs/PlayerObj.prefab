@@ -92,12 +92,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
+  m_fontSize: 18
   m_fontSizeBase: 70
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 7855227663539323463}
   - component: {fileID: 8457181628849519447}
   - component: {fileID: 5981867623537552308}
+  - component: {fileID: 2873689416692119376}
   m_Layer: 5
   m_Name: PlayerObj
   m_TagString: Untagged
@@ -209,3 +210,17 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &2873689416692119376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077078226177388702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf7f5db8323a4a1fbb5400b4130c4e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  classNameText: {fileID: 7157105389034735513}
+  buttonColor: {fileID: 5981867623537552308}

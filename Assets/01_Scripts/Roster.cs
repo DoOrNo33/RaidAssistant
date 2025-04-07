@@ -108,4 +108,45 @@ public class Roster : Singleton<Roster>
                 break;
         }
     }
+
+    public void AddToRoster(Enums.Class cl, Enums.Roll role, Enums.Range range, Enums.Armor armor, Enums.ClassTalent cT)
+    {
+        Job job = new Job();
+        job.jobClass = cl;
+        job.role = role;
+        job.range = range;
+        job.armor = armor;
+        job.classTalent = cT;
+
+        roster.Add(job);
+
+        // 생성할 오브젝트 초기화
+        GameObject pObj = null;
+
+        switch (role)
+        {
+            case Enums.Roll.Tank:
+                pObj = Instantiate(playerObj, tankRoster.transform);
+                break;
+            case Enums.Roll.DPS:
+                if (range == Enums.Range.Melee)
+                {
+                    pObj = Instantiate(playerObj, meleeRoster.transform);
+                }
+                else
+                {
+                    pObj = Instantiate(playerObj, rangedRoster.transform);
+                }
+                break;
+            case Enums.Roll.Healer:
+                pObj = Instantiate(playerObj, healerRoster.transform);
+                break;
+        }
+
+        // 클래스 오브젝트 세팅을 위한 컴포넌트 가져오기
+        ClassObjectSetup classObjectSetup = pObj.GetComponent<ClassObjectSetup>();
+
+        // 클래스 오브젝트 세팅
+        classObjectSetup.SetupClassObject(cT);
+    }
 }

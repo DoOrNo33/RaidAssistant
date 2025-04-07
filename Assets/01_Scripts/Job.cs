@@ -8,4 +8,5 @@ public class Job
     public Enums.Range range;
     public Enums.Armor armor;
     public Enums.Class jobClass;
+    public Enums.ClassTalent classTalent;
 }

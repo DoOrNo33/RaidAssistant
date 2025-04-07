@@ -146,6 +146,7 @@ public class Enums
 
         public enum ClassTalent
     {
+        Null = 0,
         WarriorProtection = 1011,
         WarriorFury,
         WarriorArms,

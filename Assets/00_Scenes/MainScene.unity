@@ -191,6 +191,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1053
 --- !u!114 &29830991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,7 +238,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 29830990}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -371,6 +372,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1081
 --- !u!114 &33721071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -417,7 +419,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 33721070}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -551,6 +553,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1121
 --- !u!114 &40836949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -597,7 +600,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 40836948}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1064,6 +1067,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1112
 --- !u!114 &77217827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1110,7 +1114,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 77217826}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1380,6 +1384,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1041
 --- !u!114 &87451837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1426,7 +1431,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 87451836}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1560,6 +1565,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1111
 --- !u!114 &104602719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1606,7 +1612,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 104602718}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2211,6 +2217,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1113
 --- !u!114 &238204343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2257,7 +2264,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 238204342}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2990,6 +2997,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1093
 --- !u!114 &330109649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3036,7 +3044,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 330109648}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3170,6 +3178,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1072
 --- !u!114 &349516527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3216,7 +3225,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 349516526}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3558,6 +3567,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1043
 --- !u!114 &425244334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3604,7 +3614,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 425244333}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4419,6 +4429,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1051
 --- !u!114 &586178652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4465,7 +4476,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 586178651}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4660,6 +4671,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1031
 --- !u!114 &612955293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4706,7 +4718,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 612955292}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5326,6 +5338,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1084
 --- !u!114 &663734794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5372,7 +5385,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 663734793}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5506,6 +5519,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1023
 --- !u!114 &681448792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5552,7 +5566,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 681448791}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5822,6 +5836,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1092
 --- !u!114 &696362921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5868,7 +5883,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 696362920}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6002,6 +6017,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1122
 --- !u!114 &702799874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6048,7 +6064,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 702799873}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6182,6 +6198,7 @@ MonoBehaviour:
   mageTalent: 2
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1132
 --- !u!114 &704015726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6228,7 +6245,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 704015725}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7257,6 +7274,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1102
 --- !u!114 &1038938008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7303,7 +7321,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1038938007}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7437,6 +7455,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1091
 --- !u!114 &1040826007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7483,7 +7502,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1040826006}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7753,6 +7772,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1021
 --- !u!114 &1051915555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7799,7 +7819,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1051915554}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8205,6 +8225,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1071
 --- !u!114 &1160579451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8251,7 +8272,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1160579450}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8933,6 +8954,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1101
 --- !u!114 &1255571865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8979,7 +9001,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1255571864}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9113,6 +9135,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1012
 --- !u!114 &1260448295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9159,7 +9182,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1260448294}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9565,6 +9588,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1011
 --- !u!114 &1300324264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9611,7 +9635,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1300324263}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9881,6 +9905,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1103
 --- !u!114 &1371705993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9927,7 +9952,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1371705992}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10197,6 +10222,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1042
 --- !u!114 &1423367798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10243,7 +10269,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1423367797}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10427,6 +10453,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1061
 --- !u!114 &1474356258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10473,7 +10500,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1474356257}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10607,6 +10634,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1083
 --- !u!114 &1475009047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10653,7 +10681,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1475009046}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11059,6 +11087,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1123
 --- !u!114 &1557295645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11105,7 +11134,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1557295644}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11239,6 +11268,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1052
 --- !u!114 &1572853997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11285,7 +11315,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1572853996}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11419,6 +11449,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1032
 --- !u!114 &1582768841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11465,7 +11496,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1582768840}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11846,6 +11877,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1063
 --- !u!114 &1653622767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11892,7 +11924,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1653622766}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12026,6 +12058,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1022
 --- !u!114 &1654633506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12072,7 +12105,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1654633505}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12206,6 +12239,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1013
 --- !u!114 &1655425999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12252,7 +12286,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1655425998}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12920,6 +12954,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1033
 --- !u!114 &1781100609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12966,7 +13001,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1781100608}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13206,6 +13241,7 @@ MonoBehaviour:
   mageTalent: 3
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1133
 --- !u!114 &1829539374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13252,7 +13288,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1829539373}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14104,6 +14140,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1062
 --- !u!114 &1997819875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14150,7 +14187,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1997819874}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14556,6 +14593,7 @@ MonoBehaviour:
   mageTalent: 0
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1082
 --- !u!114 &2094838583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14602,7 +14640,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2094838582}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14736,6 +14774,7 @@ MonoBehaviour:
   mageTalent: 1
   playerObj: {fileID: 2077078226177388702, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
   meleeRoster: {fileID: 0}
+  classTalent: 1131
 --- !u!114 &2141882308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14782,7 +14821,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2141882307}
         m_TargetAssemblyTypeName: AddRosterBtn, Assembly-CSharp
-        m_MethodName: ClickAddBtn
+        m_MethodName: AddClass
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

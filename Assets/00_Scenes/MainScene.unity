@@ -672,6 +672,7 @@ GameObject:
   m_Component:
   - component: {fileID: 41805820}
   - component: {fileID: 41805821}
+  - component: {fileID: 41805822}
   m_Layer: 5
   m_Name: MeleeClasses
   m_TagString: Untagged
@@ -723,6 +724,19 @@ MonoBehaviour:
   m_Spacing: {x: 50, y: 50}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &41805822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41805819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d7e9f9d3103a4c42adffab9ac31f318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roster: []
 --- !u!1 &45635683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2809,6 +2823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 287434643}
   - component: {fileID: 287434644}
+  - component: {fileID: 287434645}
   m_Layer: 5
   m_Name: TankClasses
   m_TagString: Untagged
@@ -2860,6 +2875,19 @@ MonoBehaviour:
   m_Spacing: {x: 50, y: 50}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &287434645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287434642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d7e9f9d3103a4c42adffab9ac31f318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roster: []
 --- !u!1 &311730368
 GameObject:
   m_ObjectHideFlags: 0
@@ -4548,6 +4576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 607860520}
   - component: {fileID: 607860521}
+  - component: {fileID: 607860522}
   m_Layer: 5
   m_Name: HealerClasses
   m_TagString: Untagged
@@ -4599,6 +4628,19 @@ MonoBehaviour:
   m_Spacing: {x: 50, y: 50}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &607860522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607860519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d7e9f9d3103a4c42adffab9ac31f318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roster: []
 --- !u!1 &612955290
 GameObject:
   m_ObjectHideFlags: 0
@@ -10381,6 +10423,10 @@ MonoBehaviour:
   meleeRoster: {fileID: 41805819}
   rangedRoster: {fileID: 1741863024}
   healerRoster: {fileID: 607860519}
+  tankSorter: {fileID: 287434645}
+  meleeSorter: {fileID: 41805822}
+  rangedSorter: {fileID: 1741863027}
+  healerSorter: {fileID: 607860522}
 --- !u!1 &1474356255
 GameObject:
   m_ObjectHideFlags: 0
@@ -11749,11 +11795,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7855227663539323463, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -440
       objectReference: {fileID: 0}
     - target: {fileID: 7855227663539323463, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 7855227663539323463, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12630,6 +12676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1741863025}
   - component: {fileID: 1741863026}
+  - component: {fileID: 1741863027}
   m_Layer: 5
   m_Name: RangedClasses
   m_TagString: Untagged
@@ -12681,6 +12728,19 @@ MonoBehaviour:
   m_Spacing: {x: 50, y: 50}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &1741863027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741863024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d7e9f9d3103a4c42adffab9ac31f318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roster: []
 --- !u!1 &1752559382
 GameObject:
   m_ObjectHideFlags: 0
@@ -13113,11 +13173,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7855227663539323463, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -440
       objectReference: {fileID: 0}
     - target: {fileID: 7855227663539323463, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 7855227663539323463, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13465,11 +13525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7855227663539323463, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -440
       objectReference: {fileID: 0}
     - target: {fileID: 7855227663539323463, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 7855227663539323463, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14933,11 +14993,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7855227663539323463, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -440
       objectReference: {fileID: 0}
     - target: {fileID: 7855227663539323463, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 7855227663539323463, guid: b21821c485b2a4b729ae8743e56459f2, type: 3}
       propertyPath: m_LocalPosition.z

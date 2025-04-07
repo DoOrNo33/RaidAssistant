@@ -23,23 +23,23 @@ public class AddRosterBtn : MonoBehaviour
     [SerializeField] private GameObject meleeRoster;
     [SerializeField] private Enums.ClassTalent classTalent;
 
-    public void ClickAddBtn()
-    {
-        Roster.Instance.AddToRoster(jobClass, role, range, armor,
-            warriorTalent,
-            paladinTalent,
-            deathKnightTalent,
-            evokerTalent,
-            shamanTalent,
-            hunterTalent,
-            demonHunterTalent,
-            druidTalent,
-            rogueTalent,
-            monkTalent,
-            priestTalent,
-            warlockTalent,
-            mageTalent);
-    }
+    // public void ClickAddBtn()
+    // {
+    //     Roster.Instance.AddToRoster(jobClass, role, range, armor,
+    //         warriorTalent,
+    //         paladinTalent,
+    //         deathKnightTalent,
+    //         evokerTalent,
+    //         shamanTalent,
+    //         hunterTalent,
+    //         demonHunterTalent,
+    //         druidTalent,
+    //         rogueTalent,
+    //         monkTalent,
+    //         priestTalent,
+    //         warlockTalent,
+    //         mageTalent);
+    // }
 
     public void AddClass()
     {

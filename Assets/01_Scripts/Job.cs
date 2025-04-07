@@ -9,4 +9,5 @@ public class Job
     public Enums.Armor armor;
     public Enums.Class jobClass;
     public Enums.ClassTalent classTalent;
+    public GameObject AssociatedObject;
 }

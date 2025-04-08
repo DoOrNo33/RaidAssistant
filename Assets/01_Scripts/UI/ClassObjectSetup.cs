@@ -1,6 +1,8 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System.Collections.Generic;
+
 
 public class ClassObjectSetup : MonoBehaviour
 {
@@ -506,5 +508,10 @@ public class ClassObjectSetup : MonoBehaviour
     public void SetupObjectJob(Job jb)
     {
         job = jb;
+    }
+
+    public void DeleteObject()
+    {
+        Roster.Instance.DeleteRoster(job);
     }
 }

@@ -168,4 +168,34 @@ public class Roster : Singleton<Roster>
         classObjectSetup.SetupClassObject(cT);
         classObjectSetup.SetupObjectJob(job);
     }
+
+    public void DeleteRoster(Job jb)
+    {
+        roster.Remove(jb);
+
+        switch (jb.role)
+        {
+            case Enums.Roll.Tank:
+                tankSorter.DeleteRoster(jb);
+                break;
+            case Enums.Roll.DPS:
+                if (jb.range == Enums.Range.Melee)
+                {
+                    meleeSorter.DeleteRoster(jb);
+                }
+                else
+                {
+                    rangedSorter.DeleteRoster(jb);
+                }
+                break;
+            case Enums.Roll.Healer:
+                healerSorter.DeleteRoster(jb);
+                break;
+        }
+
+        // 오브젝트 삭제
+        Destroy(jb.AssociatedObject);
+
+        // 클래스 삭제
+    }
 }

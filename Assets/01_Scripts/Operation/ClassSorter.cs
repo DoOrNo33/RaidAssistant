@@ -14,6 +14,12 @@ public class ClassSorter : MonoBehaviour
     }
 
     // 로스터 제거 함수
+    public void DeleteRoster(Job jb)
+    {
+        roster.Remove(jb);
+        InsertionSort();
+        UpdateObjectHierarchy();
+    }
 
     // 로스터 정렬 함수
     // 로스터는 enuums에 따라 정렬됨.

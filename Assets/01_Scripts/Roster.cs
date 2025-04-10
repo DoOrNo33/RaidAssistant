@@ -142,22 +142,30 @@ public class Roster : Singleton<Roster>
             case Enums.Roll.Tank:
                 pObj.transform.SetParent(tankRoster.transform);
                 tankSorter.AddToRoster(job);
+
+                MemberCountEventHandler.Instance.TankCount++;                       // Tank 수 증가
                 break;
             case Enums.Roll.DPS:
                 if (range == Enums.Range.Melee)
                 {
                     pObj.transform.SetParent(meleeRoster.transform);
                     meleeSorter.AddToRoster(job);
+
+                    MemberCountEventHandler.Instance.MeleeCount++;                  // Melee 수 증가
                 }
                 else
                 {
                     pObj.transform.SetParent(rangedRoster.transform);
                     rangedSorter.AddToRoster(job);
+
+                    MemberCountEventHandler.Instance.RangedCount++;                 // Ranged 수 증가
                 }
                 break;
             case Enums.Roll.Healer:
                 pObj.transform.SetParent(healerRoster.transform);
                 healerSorter.AddToRoster(job);
+
+                MemberCountEventHandler.Instance.HealerCount++;                     // Healer 수 증가
                 break;
         }
 
@@ -177,25 +185,34 @@ public class Roster : Singleton<Roster>
         {
             case Enums.Roll.Tank:
                 tankSorter.DeleteRoster(jb);
+
+                MemberCountEventHandler.Instance.TankCount--;                       // Tank 수 감소
                 break;
             case Enums.Roll.DPS:
                 if (jb.range == Enums.Range.Melee)
                 {
                     meleeSorter.DeleteRoster(jb);
+
+                    MemberCountEventHandler.Instance.MeleeCount--;                  // Melee 수 감소
                 }
                 else
                 {
                     rangedSorter.DeleteRoster(jb);
+
+                    MemberCountEventHandler.Instance.RangedCount--;                 // Ranged 수 감소
                 }
                 break;
             case Enums.Roll.Healer:
                 healerSorter.DeleteRoster(jb);
+
+                MemberCountEventHandler.Instance.HealerCount--;                     // Healer 수 감소
                 break;
         }
 
         // 오브젝트 삭제
         Destroy(jb.AssociatedObject);
 
-        // 클래스 삭제
+        // 클래스 객체 삭제
+        // 가비지 컬렉터를 통해 참조되지 않는 객체는 자동 삭제
     }
 }

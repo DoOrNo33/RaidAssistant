@@ -169,6 +169,54 @@ public class Roster : Singleton<Roster>
                 break;
         }
 
+        // 버프 UI 세팅
+        switch (cl)
+        {
+            case Enums.Class.Warrior:
+                BuffEventHandler.Instance.IsBattleShout++;
+                break;
+            case Enums.Class.Paladin:
+                BuffEventHandler.Instance.IsDevotionAura++;
+                break;
+            case Enums.Class.DeathKnight:
+                BuffEventHandler.Instance.IsDeathGrip++;
+                break;
+            case Enums.Class.Evoker:
+                BuffEventHandler.Instance.IsBlessingoftheBronze++;
+                BuffEventHandler.Instance.IsBloodlust++;
+                break;
+            case Enums.Class.Shaman:
+                BuffEventHandler.Instance.IsSkyfury++;
+                BuffEventHandler.Instance.IsBloodlust++;
+                break;
+            case Enums.Class.Hunter:
+                BuffEventHandler.Instance.IsHuntersMark++;
+                BuffEventHandler.Instance.IsBloodlust++;
+                break;
+            case Enums.Class.DemonHunter:
+                BuffEventHandler.Instance.IsChaosBrand++;
+                break;
+            case Enums.Class.Druid:
+                BuffEventHandler.Instance.IsMarkoftheWild++;
+                break;
+            case Enums.Class.Rogue:
+                BuffEventHandler.Instance.IsPoison++;
+                break;
+            case Enums.Class.Monk:
+                BuffEventHandler.Instance.IsMysticTouch++;
+                break;
+            case Enums.Class.Priest:
+                BuffEventHandler.Instance.IsPowerWordFortitude++;
+                break;
+            case Enums.Class.Warlock:
+                BuffEventHandler.Instance.IsHealthstone++;
+                break;
+            case Enums.Class.Mage:
+                BuffEventHandler.Instance.IsArcaneIntellect++;
+                BuffEventHandler.Instance.IsBloodlust++;
+                break;
+        }
+
         // 클래스 오브젝트 세팅을 위한 컴포넌트 가져오기
         ClassObjectSetup classObjectSetup = pObj.GetComponent<ClassObjectSetup>();
 
@@ -206,6 +254,53 @@ public class Roster : Singleton<Roster>
                 healerSorter.DeleteRoster(jb);
 
                 MemberCountEventHandler.Instance.HealerCount--;                     // Healer 수 감소
+                break;
+        }
+
+        switch (jb.jobClass)
+        {
+            case Enums.Class.Warrior:
+                BuffEventHandler.Instance.IsBattleShout--;
+                break;
+            case Enums.Class.Paladin:
+                BuffEventHandler.Instance.IsDevotionAura--;
+                break;
+            case Enums.Class.DeathKnight:
+                BuffEventHandler.Instance.IsDeathGrip--;
+                break;
+            case Enums.Class.Evoker:
+                BuffEventHandler.Instance.IsBlessingoftheBronze--;
+                BuffEventHandler.Instance.IsBloodlust--;
+                break;
+            case Enums.Class.Shaman:
+                BuffEventHandler.Instance.IsSkyfury--;
+                BuffEventHandler.Instance.IsBloodlust--;
+                break;
+            case Enums.Class.Hunter:
+                BuffEventHandler.Instance.IsHuntersMark--;
+                BuffEventHandler.Instance.IsBloodlust--;
+                break;
+            case Enums.Class.DemonHunter:
+                BuffEventHandler.Instance.IsChaosBrand--;
+                break;
+            case Enums.Class.Druid:
+                BuffEventHandler.Instance.IsMarkoftheWild--;
+                break;
+            case Enums.Class.Rogue:
+                BuffEventHandler.Instance.IsPoison--;
+                break;
+            case Enums.Class.Monk:
+                BuffEventHandler.Instance.IsMysticTouch--;
+                break;
+            case Enums.Class.Priest:
+                BuffEventHandler.Instance.IsPowerWordFortitude--;
+                break;
+            case Enums.Class.Warlock:
+                BuffEventHandler.Instance.IsHealthstone--;
+                break;
+            case Enums.Class.Mage:
+                BuffEventHandler.Instance.IsArcaneIntellect--;
+                BuffEventHandler.Instance.IsBloodlust--;
                 break;
         }
 

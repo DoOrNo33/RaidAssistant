@@ -4833,7 +4833,7 @@ MonoBehaviour:
   - {fileID: 950413940}
   - {fileID: 728855334}
   - {fileID: 254903681}
-  offAlpha: 100
+  offAlpha: 30
 --- !u!1 &443908372
 GameObject:
   m_ObjectHideFlags: 0
@@ -8583,6 +8583,55 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &884916358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 884916359}
+  - component: {fileID: 884916360}
+  m_Layer: 0
+  m_Name: MemberManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &884916359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884916358}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.029429756, y: -0.42777702, z: 0.06548662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &884916360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884916358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7718bd55ffaa9483f90108bdee0a96a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tankCount: 0
+  meleeCount: 0
+  rangedCount: 0
+  healerCount: 0
+  totalCount: 0
 --- !u!1 &902037652
 GameObject:
   m_ObjectHideFlags: 0
@@ -14434,7 +14483,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1451686498}
   - component: {fileID: 1451686499}
-  - component: {fileID: 1451686500}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -14479,23 +14527,6 @@ MonoBehaviour:
   meleeSorter: {fileID: 41805822}
   rangedSorter: {fileID: 1741863027}
   healerSorter: {fileID: 607860522}
---- !u!114 &1451686500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451686496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7718bd55ffaa9483f90108bdee0a96a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tankCount: 0
-  meleeCount: 0
-  rangedCount: 0
-  healerCount: 0
-  totalCount: 0
 --- !u!1 &1464084180
 GameObject:
   m_ObjectHideFlags: 0
@@ -14994,6 +15025,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rectTransform: {fileID: 1475009045}
   ratio: 1.5
+--- !u!1 &1500210608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1500210609}
+  - component: {fileID: 1500210610}
+  m_Layer: 0
+  m_Name: BuffManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1500210609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500210608}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.029429756, y: -0.42777702, z: 0.06548662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1500210610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500210608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c66ed5601d34f4025a12a55ef236c748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isBloodlust: 0
+  isBattleShout: 0
+  isPowerWordFortitude: 0
+  isArcaneIntellect: 0
+  isSkyfury: 0
+  isMarkoftheWild: 0
+  isBlessingoftheBronze: 0
+  isMysticTouch: 0
+  isChaosBrand: 0
+  isHuntersMark: 0
+  isPoison: 0
+  isDevotionAura: 0
+  isHealthstone: 0
+  isDeathGrip: 0
 --- !u!1 &1502048463
 GameObject:
   m_ObjectHideFlags: 0
@@ -20376,3 +20465,5 @@ SceneRoots:
   - {fileID: 853344237}
   - {fileID: 1912865807}
   - {fileID: 1451686498}
+  - {fileID: 884916359}
+  - {fileID: 1500210609}

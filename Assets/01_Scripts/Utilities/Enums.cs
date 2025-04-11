@@ -187,4 +187,22 @@ public class Enums
         MageFire,
         MageFrost,
     }
+
+    public enum RaidSynergy
+    {
+        Bloodlust,
+        BattleShout,
+        PowerWordFortitude,
+        ArcaneIntellect,
+        Skyfury,
+        MarkoftheWild,
+        BlessingoftheBronze,
+        MysticTouch,
+        ChaosBrand,
+        HuntersMark,
+        Poison,
+        DevotionAura,
+        Healthstone,
+        DeathGrip,
+    }
 }

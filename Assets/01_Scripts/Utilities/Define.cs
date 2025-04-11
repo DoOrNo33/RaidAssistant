@@ -16,6 +16,7 @@ public class ClassColorDefine
     public static Color PriestColor = new Color(243/255f, 247/255f, 243/255f);
     public static Color WarlockColor = new Color(132/255f, 138/255f, 230/255f);
     public static Color MageColor = new Color(65/255f, 190/255f, 222/255f);
+    public static Color BloodlustColor = new Color(189/255f, 31/255f, 43/255f);
 }
 
 public class ClassNameDefine

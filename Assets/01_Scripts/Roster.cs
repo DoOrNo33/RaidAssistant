@@ -5,6 +5,7 @@ using TMPro;
 public class Roster : Singleton<Roster>
 {
     [SerializeField] private List<Job> roster;
+    [SerializeField] private DataManager dataManager;
 
     [SerializeField] private GameObject playerObj;
     [SerializeField] private GameObject tankRoster;
@@ -117,7 +118,16 @@ public class Roster : Singleton<Roster>
     // }
 #endregion
 
-    public void AddToRoster(Enums.Class cl, Enums.Roll role, Enums.Range range, Enums.Armor armor, Enums.ClassTalent cT)
+    // 세이브 테스트 용
+    private void Update() 
+    {
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            dataManager.OnSaveData(roster);
+        }
+    }
+
+    public void AddToRoster(Enums.Class cl, Enums.Roll role, Enums.Range range, Enums.Armor armor, Enums.ClassTalent cT, bool isLoading = false )
     {
         Job job = new Job();
         job.jobClass = cl;
@@ -126,7 +136,11 @@ public class Roster : Singleton<Roster>
         job.armor = armor;
         job.classTalent = cT;
 
-        roster.Add(job);
+        // 로스터에 추가
+        if (!isLoading)
+        {
+            roster.Add(job);
+        }
 
         // 생성할 오브젝트 초기화
         GameObject pObj = null;
@@ -223,6 +237,12 @@ public class Roster : Singleton<Roster>
         // 클래스 오브젝트 세팅
         classObjectSetup.SetupClassObject(cT);
         classObjectSetup.SetupObjectJob(job);
+
+        // 세이브
+        if (!isLoading)
+        {
+        dataManager.OnSaveData(roster);
+        }
     }
 
     public void DeleteRoster(Job jb)
@@ -309,5 +329,10 @@ public class Roster : Singleton<Roster>
 
         // 클래스 객체 삭제
         // 가비지 컬렉터를 통해 참조되지 않는 객체는 자동 삭제
+    }
+
+    public void LoadRoster(List<Job> data)
+    {
+        roster = data;
     }
 }

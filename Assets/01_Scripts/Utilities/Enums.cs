@@ -205,4 +205,12 @@ public class Enums
         Healthstone,
         DeathGrip,
     }
+
+    public enum ScreenType
+    {
+        Class,
+        Buff,
+        Organization,
+        Save,
+    }
 }

@@ -329,6 +329,9 @@ public class Roster : Singleton<Roster>
 
         // 클래스 객체 삭제
         // 가비지 컬렉터를 통해 참조되지 않는 객체는 자동 삭제
+
+        // 세이브
+        dataManager.OnSaveData(roster);
     }
 
     public void LoadRoster(List<Job> data)

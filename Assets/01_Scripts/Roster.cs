@@ -231,6 +231,9 @@ public class Roster : Singleton<Roster>
                 break;
         }
 
+        // 티어 UI를 업데이트 하기 위한 정보
+        UpdateTier(cl, true);
+
         // 클래스 오브젝트 세팅을 위한 컴포넌트 가져오기
         ClassObjectSetup classObjectSetup = pObj.GetComponent<ClassObjectSetup>();
 
@@ -241,7 +244,7 @@ public class Roster : Singleton<Roster>
         // 세이브
         if (!isLoading)
         {
-        dataManager.OnSaveData(roster);
+            dataManager.OnSaveData(roster);
         }
     }
 
@@ -324,6 +327,9 @@ public class Roster : Singleton<Roster>
                 break;
         }
 
+        // 티어 UI를 업데이트 하기 위한 정보
+        UpdateTier(jb.jobClass, false);
+
         // 오브젝트 삭제
         Destroy(jb.AssociatedObject);
 
@@ -337,5 +343,90 @@ public class Roster : Singleton<Roster>
     public void LoadRoster(List<Job> data)
     {
         roster = data;
+    }
+
+    private void UpdateTier(Enums.Class cl, bool plusMinus)
+    {
+        switch (cl)
+        {
+            case Enums.Class.Warrior:
+                if (plusMinus)
+                    GameManager.Instance.TierCountEventHandler.WRMECount++;
+                else
+                    GameManager.Instance.TierCountEventHandler.WRMECount--;
+                break;
+            case Enums.Class.Paladin:
+                if (plusMinus)
+                    GameManager.Instance.TierCountEventHandler.PPSCount++;
+                else
+                    GameManager.Instance.TierCountEventHandler.PPSCount--;
+                break;
+            case Enums.Class.DeathKnight:
+                if (plusMinus)
+                    GameManager.Instance.TierCountEventHandler.DWDCount++;
+                else
+                    GameManager.Instance.TierCountEventHandler.DWDCount--;
+                break;
+            case Enums.Class.Evoker:
+                if (plusMinus)
+                    GameManager.Instance.TierCountEventHandler.WRMECount++;
+                else
+                    GameManager.Instance.TierCountEventHandler.WRMECount--;
+                break;
+            case Enums.Class.Shaman:
+                if (plusMinus)
+                    GameManager.Instance.TierCountEventHandler.PPSCount++;
+                else
+                    GameManager.Instance.TierCountEventHandler.PPSCount--;
+                break;
+            case Enums.Class.Hunter:
+                if (plusMinus)
+                    GameManager.Instance.TierCountEventHandler.HMDCount++;
+                else
+                    GameManager.Instance.TierCountEventHandler.HMDCount--;
+                break;
+            case Enums.Class.DemonHunter:
+                if (plusMinus)
+                    GameManager.Instance.TierCountEventHandler.DWDCount++;
+                else
+                    GameManager.Instance.TierCountEventHandler.DWDCount--;
+                break;
+            case Enums.Class.Druid:
+                if (plusMinus)
+                    GameManager.Instance.TierCountEventHandler.HMDCount++;
+                else
+                    GameManager.Instance.TierCountEventHandler.HMDCount--;
+                break;
+            case Enums.Class.Rogue:
+                if (plusMinus)
+                    GameManager.Instance.TierCountEventHandler.WRMECount++;
+                else
+                    GameManager.Instance.TierCountEventHandler.WRMECount--;
+                break;
+            case Enums.Class.Monk:
+                if (plusMinus)
+                    GameManager.Instance.TierCountEventHandler.WRMECount++;
+                else
+                    GameManager.Instance.TierCountEventHandler.WRMECount--;
+                break;
+            case Enums.Class.Priest:
+                if (plusMinus)
+                    GameManager.Instance.TierCountEventHandler.PPSCount++;
+                else
+                    GameManager.Instance.TierCountEventHandler.PPSCount--;
+                break;
+            case Enums.Class.Warlock:
+                if (plusMinus)
+                    GameManager.Instance.TierCountEventHandler.DWDCount++;
+                else
+                    GameManager.Instance.TierCountEventHandler.DWDCount--;
+                break;
+            case Enums.Class.Mage:
+                if (plusMinus)
+                    GameManager.Instance.TierCountEventHandler.HMDCount++;
+                else
+                    GameManager.Instance.TierCountEventHandler.HMDCount--;
+                break;
+        }
     }
 }

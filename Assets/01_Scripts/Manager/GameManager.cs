@@ -24,7 +24,15 @@ public class GameManager : Singleton<GameManager>
     protected override void Awake()
     {
         base.Awake();
+
+        // 이미 초기화된 경우 기존 인스턴스를 정리
+        tierCountEventHandler?.OnDestroy();
+        armourCountEventHandler?.OnDestroy();
+
+        // 새로운 인스턴스 생성
         tierCountEventHandler = new TierCountEventHandler();
         armourCountEventHandler = new ArmourCountEventHandler();
     }
+
+
 }

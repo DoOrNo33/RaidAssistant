@@ -26,8 +26,8 @@ public class GameManager : Singleton<GameManager>
         base.Awake();
 
         // 이미 초기화된 경우 기존 인스턴스를 정리
-        tierCountEventHandler?.OnDestroy();
-        armourCountEventHandler?.OnDestroy();
+        tierCountEventHandler?.Cleanup();
+        armourCountEventHandler?.Cleanup();
 
         // 새로운 인스턴스 생성
         tierCountEventHandler = new TierCountEventHandler();

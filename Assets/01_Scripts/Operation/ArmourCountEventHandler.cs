@@ -113,7 +113,12 @@ public class ArmourCountEventHandler
         updateClothCount -= action;
     }
 
-    private void OnDestroy() 
+    private void OnDestroy()
+    {
+        Cleanup();
+    }
+
+    public void Cleanup()
     {
         // 모든 이벤트를 제거
         updatePlateCount = null;

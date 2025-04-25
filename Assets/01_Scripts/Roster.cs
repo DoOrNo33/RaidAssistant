@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
 using TMPro;
+using static Enums;
+using Unity.VisualScripting;
 
 public class Roster : Singleton<Roster>
 {
@@ -136,11 +138,11 @@ public class Roster : Singleton<Roster>
         job.armor = armor;
         job.classTalent = cT;
 
-        // 로스터에 추가
-        if (!isLoading)
-        {
-            roster.Add(job);
-        }
+        //// 로스터에 추가
+        //if (!isLoading)
+        //{
+        roster.Add(job);
+        //}
 
         // 생성할 오브젝트 초기화
         GameObject pObj = null;
@@ -234,6 +236,9 @@ public class Roster : Singleton<Roster>
         // 티어 UI를 업데이트 하기 위한 정보
         UpdateTier(cl, true);
 
+        // 방어구 UI를 업데이트 하기 위한 정보
+        UpdateArmor(armor, true);
+
         // 클래스 오브젝트 세팅을 위한 컴포넌트 가져오기
         ClassObjectSetup classObjectSetup = pObj.GetComponent<ClassObjectSetup>();
 
@@ -248,9 +253,28 @@ public class Roster : Singleton<Roster>
         }
     }
 
-    public void DeleteRoster(Job jb)
+    public void DeleteRoster(Job jb, bool reset = false)
     {
-        roster.Remove(jb);
+        //roster.Remove(jb);
+        if (roster.Contains(jb))
+        {
+            roster.Remove(jb);
+            Debug.Log("Job 객체가 동일하여 삭제되었습니다.");
+
+            // Contains
+            //1.	roster: List<Job> 타입의 리스트입니다. roster는 Job 객체를 저장하는 리스트입니다.
+            //            2.jb: Job 타입의 객체로, 리스트에 포함되어 있는지 확인하려는 대상입니다.
+            //3.Contains 메서드: 리스트의 각 요소와 jb를 비교하여 동일한 객체가 있는지 확인합니다.
+             //동일성 비교 기준
+           //roster.Contains(jb)는 다음 기준으로 jb와 리스트의 요소를 비교합니다:
+            //            1.참조 비교: Job 클래스에서 Equals 메서드를 재정의하지 않았다면, 기본적으로 참조 비교를 수행합니다.즉, jb와 리스트의 요소가 동일한 메모리 주소를 가리키는지 확인합니다.
+              //2.Equals 메서드 재정의: Job 클래스에서 Equals 메서드를 재정의한 경우, 재정의된 로직에 따라 동일성을 비교합니다. 예를 들어, Job의 속성 값이 동일한지 확인하도록 구현할 수 있습니다.
+        }
+        else
+        {
+            Debug.LogError("Roster에 존재하지 않는 Job입니다.");
+            return;
+        }
 
         switch (jb.role)
         {
@@ -330,20 +354,26 @@ public class Roster : Singleton<Roster>
         // 티어 UI를 업데이트 하기 위한 정보
         UpdateTier(jb.jobClass, false);
 
+        // 방어구 UI를 업데이트 하기 위한 정보
+        UpdateArmor(jb.armor, false);
+
         // 오브젝트 삭제
         Destroy(jb.AssociatedObject);
 
         // 클래스 객체 삭제
         // 가비지 컬렉터를 통해 참조되지 않는 객체는 자동 삭제
 
-        // 세이브
-        dataManager.OnSaveData(roster);
+        // 리셋이 아닐 경우 저장
+        if (!reset)
+        {
+            dataManager.OnSaveData(roster);
+        }
     }
 
-    public void LoadRoster(List<Job> data)
-    {
-        roster = data;
-    }
+    //public void LoadRoster(List<Job> data)
+    //{
+    //    roster = data;
+    //}
 
     private void UpdateTier(Enums.Class cl, bool plusMinus)
     {
@@ -427,6 +457,56 @@ public class Roster : Singleton<Roster>
                 else
                     GameManager.Instance.TierCountEventHandler.HMDCount--;
                 break;
+            default:
+                Debug.LogError("클래스 타입 미정");
+                break;
         }
+    }
+
+    private void UpdateArmor(Enums.Armor armor, bool plusMinus)
+    {
+        switch (armor)
+        {
+            case Enums.Armor.Plate:
+                if (plusMinus)
+                    GameManager.Instance.ArmourCountEventHandler.PlateCount++;
+                else
+                    GameManager.Instance.ArmourCountEventHandler.PlateCount--;
+                break;
+            case Enums.Armor.Mail:
+                if (plusMinus)
+                    GameManager.Instance.ArmourCountEventHandler.MailCount++;
+                else
+                    GameManager.Instance.ArmourCountEventHandler.MailCount--;
+                break;
+            case Enums.Armor.Leather:
+                if (plusMinus)
+                    GameManager.Instance.ArmourCountEventHandler.LeatherCount++;
+                else
+                    GameManager.Instance.ArmourCountEventHandler.LeatherCount--;
+                break;
+            case Enums.Armor.Cloth:
+                if (plusMinus)
+                    GameManager.Instance.ArmourCountEventHandler.ClothCount++;
+                else
+                    GameManager.Instance.ArmourCountEventHandler.ClothCount--;
+                break;
+            default:
+                Debug.LogError("방어구 타입 미정");
+                break;
+        }
+    }
+
+    // 로스터 리셋
+    public void ResetRoster()
+    {
+        foreach (Job jb in roster)
+        {
+            Destroy(jb.AssociatedObject);
+        }
+
+        roster.Clear();
+
+        // 로스터 UI정보등이 초기화 안 되서 이 방식은 아닌듯
     }
 }

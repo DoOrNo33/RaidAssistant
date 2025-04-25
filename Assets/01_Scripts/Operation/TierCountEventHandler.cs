@@ -113,7 +113,12 @@ public class TierCountEventHandler
         updateDWDCount -= action;
     }
 
-    private void OnDestroy() 
+    protected void OnDestroy() 
+    {
+        Cleanup();
+    }
+
+    public void Cleanup()
     {
         // 모든 이벤트를 제거
         updateWRMECount = null;

@@ -48,6 +48,19 @@ public class DataManager : MonoBehaviour
         Debug.Log($"Data saved to slot {curSlot}");
     }
 
+    // 세이브 슬롯 초기화를 위해 빈 데이터 덮어씌우기
+    public void OnSaveData(int slotIndex)
+    {
+        List<Job> emptyData = new List<Job>(); // 빈 리스트로 초기화
+
+        // 데이터 저장 과정
+        JobListWrapper wrapper = new JobListWrapper { jobs = emptyData };
+
+        var json = JsonUtility.ToJson(wrapper);
+
+        File.WriteAllText(GetSaveFilePath(slotIndex), json);
+    }
+
     public void OnLoadData()
     {
         // 데이터 로드 과정
@@ -119,14 +132,38 @@ public class DataManager : MonoBehaviour
     }
 
     // 슬롯이 변경 된 후 기존 로스터 데이터와 오브젝트를 초기화 하고 새로 변경된 로스터로 생성되어야 함
-    public void ResetRoster()
+    public void ResetRoster(int slotIndex)
     {
         // 로스터 초기화
         Roster.Instance.ResetRoster();
 
+        // 슬롯 번호 변경
+        ChangeSlot(slotIndex);
+
+        // 변경된 슬롯으로 데이터 로드
+        OnLoadData();
+
         foreach (Job job in playerData)
         {
             Roster.Instance.AddToRoster(job.jobClass, job.role, job.range, job.armor, job.classTalent, true);
+        }
+    }
+
+    // 초기화 버튼을 누르면 세이브 슬롯이 초기화 되어야 함.
+    // 먄약 초기화 할 슬롯이 현재 슬롯이라면 현재 로스터도 초기화 하며 세이브 슬롯을 초기화 해야하고
+    // 아닐 경우에는 세이브 슬롯만 초기화 하면 됨
+    public void ClearSaveSlot(int slotIndex)
+    {
+        if (slotIndex == curSlot)
+        {
+            // 현재 슬롯 초기화
+            Roster.Instance.ResetRoster();
+
+            OnSaveData(slotIndex); // 슬롯 초기화
+        }
+        else
+        {
+            OnSaveData(slotIndex);
         }
     }
 }

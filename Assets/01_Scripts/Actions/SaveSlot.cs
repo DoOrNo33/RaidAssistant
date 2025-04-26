@@ -7,11 +7,11 @@ public class SaveSlot : MonoBehaviour
 
     public void LoadSlot()
     {
-        // 세이브 슬롯 저장
-        dataManager.ChangeSlot(slotIndex);
+        dataManager.ResetRoster(slotIndex);         // 슬롯 인덱스를 넘겨서 세이브 슬롯 변경
+    }
 
-        dataManager.OnLoadData();
-
-        dataManager.ResetRoster();
+    public void ClearSlot()
+    {
+        dataManager.ClearSaveSlot(slotIndex);       // 슬롯 인덱스를 넘겨서 세이브 슬롯 초기화
     }
 }

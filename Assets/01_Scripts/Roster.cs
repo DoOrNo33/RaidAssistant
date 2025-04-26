@@ -500,13 +500,13 @@ public class Roster : Singleton<Roster>
     // 로스터 리셋
     public void ResetRoster()
     {
-        foreach (Job jb in roster)
+        List<Job> copyRoster = new List<Job>(roster);
+
+        foreach (Job jb in copyRoster)
         {
-            Destroy(jb.AssociatedObject);
+            DeleteRoster(jb, reset: true); // reset 플래그를 true로 설정
         }
-
-        roster.Clear();
-
+        
         // 로스터 UI정보등이 초기화 안 되서 이 방식은 아닌듯
     }
 }

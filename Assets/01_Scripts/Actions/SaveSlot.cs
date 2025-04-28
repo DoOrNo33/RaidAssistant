@@ -14,4 +14,10 @@ public class SaveSlot : MonoBehaviour
     {
         dataManager.ClearSaveSlot(slotIndex);       // 슬롯 인덱스를 넘겨서 세이브 슬롯 초기화
     }
+
+    public void UpdateSlotUI()
+    {
+        // 슬롯 UI 업데이트
+        GameManager.Instance.SaveSlotNumberEventHandler.SaveSlotNumber = slotIndex;
+    }
 }

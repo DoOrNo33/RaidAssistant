@@ -13,6 +13,9 @@ public class DataManager : MonoBehaviour
         // 슬롯 번호 로드
         curSlot = LoadSlot();
         Debug.Log($"Current slot: {curSlot}");
+
+        // 슬롯 번호 UI 업데이트
+        GameManager.Instance.SaveSlotNumberEventHandler.SaveSlotNumber = curSlot;
     }
 
     private void Start()

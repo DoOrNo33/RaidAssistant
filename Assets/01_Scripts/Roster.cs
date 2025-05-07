@@ -129,7 +129,7 @@ public class Roster : Singleton<Roster>
         }
     }
 
-    public void AddToRoster(Enums.Class cl, Enums.Roll role, Enums.Range range, Enums.Armor armor, Enums.ClassTalent cT, bool isLoading = false )
+    public void AddToRoster(Enums.Class cl, Enums.Roll role, Enums.Range range, Enums.Armor armor, Enums.ClassTalent cT, bool isLoading = false, string name = null )
     {
         Job job = new Job();
         job.jobClass = cl;
@@ -137,6 +137,13 @@ public class Roster : Singleton<Roster>
         job.range = range;
         job.armor = armor;
         job.classTalent = cT;
+
+
+        // 이름이 정해져 있으면 이름을 설정
+        if (name != null)
+        {
+            job.name = name;
+        }
 
         //// 로스터에 추가
         //if (!isLoading)
@@ -245,6 +252,11 @@ public class Roster : Singleton<Roster>
         // 클래스 오브젝트 세팅
         classObjectSetup.SetupClassObject(cT);
         classObjectSetup.SetupObjectJob(job);
+
+        if (name != null)
+        {
+            classObjectSetup.SetupPlayerName(job.name);
+        }
 
         // 세이브
         if (!isLoading)
